@@ -17,12 +17,12 @@ based on first telementry sensor : **RSSI** and **RxBt**
 
 for color big screen like TX16S
   put:
-  `ModelLocator480px.lua` and `ModelLocator.wav`
+  `ModelLocator_FrSky_480px.lua` and `ModelLocator.wav`
   to `/SCRIPTS/TOOLS/`
 
 for b&w small screen like QX7(128x64), X9D Plus(212x64) or related
   put:
-  `ModelLocator_FrSky_X9D.lua` and `ModelLocator.wav`
+  `ModelLocator_FrSky_BW.lua` and `ModelLocator.wav`
   to `/SCRIPTS/TOOLS/`
 
 Have fun
