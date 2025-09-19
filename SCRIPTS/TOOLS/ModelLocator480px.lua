@@ -12,7 +12,8 @@ end
 local function main(event)
 
   lcd.clear()
-  local rssi = getValue("1RSS")
+  -- FrSky X9D+ has RSSI value from 0 to 100
+  local rssi = getValue("RSSI")
   
   lcd.setColor(TEXT_COLOR, BLACK)
   lcd.drawNumber(180, 30, rssi, XXLSIZE)
@@ -21,7 +22,7 @@ local function main(event)
   if rssi ~= 0 then
 	  if getTime() >= nextPlayTime then
 		playFile("/SCRIPTS/TOOLS/ModelLocator.wav")
-		nextPlayTime = getTime() + delayDecMillis + (math.abs(rssi))
+		nextPlayTime = getTime() + delayDecMillis + (100 - math.abs(rssi))
 	  end
   end
 
