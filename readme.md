@@ -4,7 +4,7 @@ ModelLocator for FrSky Receivers D8/D16
 
 By Songhua Liu
 
-![image](static/photo_2025-09-19_21-15-44.jpg)
+![image](static/photo_2025-09-20_06-35-11.jpg)
 
 **RSSI** from X8R receivers is in range 0 to 100. 100 indicates the signal is strongest that the signal strength bar will be full if you are very near to the receiver.
 
