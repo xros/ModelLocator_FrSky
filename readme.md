@@ -10,7 +10,7 @@ By Songhua Liu
 
 **RxBt** the receiver's input voltage.
 
-Inspired by [FelixShk's FPV repo](https://github.com/FelixShk/FPV/)
+Inspired by this repo [FPV](https://github.com/FelixShk/FPV/) and [edgetx-lua-scripts-bw](https://github.com/iamsunilchahal/edgetx-lua-scripts-bw)
 
 for OpenTX OS
 based on first telementry sensor : **RSSI** and **RxBt**
