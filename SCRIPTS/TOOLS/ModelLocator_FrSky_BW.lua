@@ -24,13 +24,13 @@ local function main(event)
   -- left border of the rssi bar
   lcd.drawFilledRectangle(10,40,1,8, 0)
   -- upper border of the rssi bar
-  lcd.drawFilledRectangle(10,40,100,1, 0)
+  lcd.drawFilledRectangle(11,40,100,1, 0)
   -- lower border of the rssi bar
-  lcd.drawFilledRectangle(10,47,100,1, 0)
-  -- rssi bar itself
-  lcd.drawFilledRectangle(10,41,rssi,6, 0)
+  lcd.drawFilledRectangle(11,47,100,1, 0)
+  -- rssi bar itself (max 100)
+  lcd.drawFilledRectangle(11,41,rssi,6, 0)
   -- right border of the rssi bar
-  lcd.drawFilledRectangle(110,40,1,8,0)
+  lcd.drawFilledRectangle(111,40,1,8,0)
   -- receiver RxBt voltage
   lcd.drawText(10, 52, string.format("RxBt: %.2f V", rxbt), MIDSIZE)
 
