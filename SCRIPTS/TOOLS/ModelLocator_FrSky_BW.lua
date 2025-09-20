@@ -17,7 +17,7 @@ local function main(event)
   local rssi = getValue("RSSI")
   local rxbt = getValue("RxBt")
   
-  lcd.drawText(2,2,"FrSky RX Finder(D8/D16)", MIDSIZE)
+  lcd.drawText(2,2,"FrSky RX Finder(S.Port)", MIDSIZE)
   -- lcd.drawNumber(20, 20, rssi, XXLSIZE)
   -- lcd.drawNumber(70, 20, rxbt, XXLSIZE)
   lcd.drawText(10, 18, string.format("RSSI: %d", rssi), DBLSIZE)
